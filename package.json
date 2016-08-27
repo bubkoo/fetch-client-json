@@ -1,0 +1,19 @@
+{
+  "name": "fetch-client-json",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bubkoo/fetch-client-json.git"
+  },
+  "author": "bubkoo <bubkoo.wy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bubkoo/fetch-client-json/issues"
+  },
+  "homepage": "https://github.com/bubkoo/fetch-client-json#readme"
+}
