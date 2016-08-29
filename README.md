@@ -1,4 +1,4 @@
-# fetch-client-json
+# fetch-client-middlewares
 
 > middlewares for fetch-client.
 

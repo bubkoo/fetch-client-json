@@ -1,4 +1,4 @@
-export default function () {
+function create() {
 
   const request = (req) => {
 
@@ -23,3 +23,5 @@ export default function () {
     response
   };
 }
+
+export default create;
