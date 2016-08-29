@@ -1,0 +1,37 @@
+{
+  "name": "fetch-client-useragent",
+  "version": "0.0.1",
+  "description": "Set userAgent before do fetch, this module is a middleware for fetch-client.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --output-library=fetch-client-useragent --config ../../webpack.umd.js ./src/index.js ./dist/index.js",
+    "prepublish": "npm run build"
+  },
+  "author": {
+    "name": "bubkoo",
+    "email": "bubkoo.wy@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "keywords": [
+    "fetch",
+    "api",
+    "middleware",
+    "intercept",
+    "interceptor",
+    "promise",
+    "observable",
+    "http",
+    "xhr"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bubkoo/fetch-client-middlewares.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bubkoo/fetch-client-middlewares/issues"
+  },
+  "homepage": "https://github.com/bubkoo/fetch-client-middlewares#readme"
+}
